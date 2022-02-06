@@ -8,44 +8,44 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="Style.css">
-  <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display#standard-styles"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order summary card</title>
+
   <style>
 
   </style>
 </head>
 
 <body>
-  <div id="container">
+  <main id="container">
 
-    <div id="box">
-      <img src="images/illustration-hero.svg" alt="">
-      <div id="order">
-        <h1>Order Summary</h1>
+    <div id="cardBody">
+      <img src="images/illustration-hero.svg" alt="illustration-hero">
 
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-          anywhere you like!</p>
-      </div>
-
-      <div id="plan">
-        <div id="plan2">
-          <img src="images/icon-music.svg" alt="">
-          <div>
-            <h3>Annual Plan</h3>
-            <p> $59.99/year</p>
-          </div>
+      <div id="txt">
+        <div id="summry">
+          <h2>Order Summary</h2>
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+            anywhere you like!</p>
         </div>
-        <a href="#">Change</a>
-      </div>
+        <div id="planSection">
+          <div id="planDetails">
+            <img src="images/icon-music.svg" alt="icon-music">
+            <div>
+              <p id="title">Annual Plan</p>
+              <p> $59.99/year</p>
+            </div>
+          </div>
+          <a id="changeBtn" href="#">Change</a>
+        </div>
 
-      <div id="btn">
-        <button>Proceed to Payment</button>
-        <a id="cancel" href="#">Cancel Order</a>
-      </div>
+        <div id="btns">
+          <button>Proceed to Payment</button>
+          <a id="cancel" href="#">Cancel Order</a>
+        </div>
 
+      </div>
     </div>
 
 
@@ -53,7 +53,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Heba Ibrahem</a>.
     </div>
-  </div>
+  </main>
 
 
 
